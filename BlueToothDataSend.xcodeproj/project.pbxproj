@@ -13,6 +13,13 @@
 		189AA7062429BCD50010DB6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189AA7042429BCD50010DB6C /* Main.storyboard */; };
 		189AA7082429BCD70010DB6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189AA7072429BCD70010DB6C /* Assets.xcassets */; };
 		189AA70B2429BCD70010DB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189AA7092429BCD70010DB6C /* LaunchScreen.storyboard */; };
+		189AA7132429CB0A0010DB6C /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AA7122429CB0A0010DB6C /* ParticlePeripheral.swift */; };
+		189AA7152429FC630010DB6C /* PopulateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AA7142429FC630010DB6C /* PopulateVC.swift */; };
+		189AA717242A19BE0010DB6C /* TblvwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AA716242A19BE0010DB6C /* TblvwCell.swift */; };
+		189AA71B242A20D60010DB6C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AA71A242A20D60010DB6C /* ChatViewController.swift */; };
+		189AA71D242A213C0010DB6C /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189AA71C242A213C0010DB6C /* ChatViewController.xib */; };
+		189AA720242A21480010DB6C /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189AA71E242A21480010DB6C /* ChatCell.xib */; };
+		189AA721242A21480010DB6C /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AA71F242A21480010DB6C /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		189AA7072429BCD70010DB6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189AA70A2429BCD70010DB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189AA70C2429BCD70010DB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189AA7122429CB0A0010DB6C /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
+		189AA7142429FC630010DB6C /* PopulateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulateVC.swift; sourceTree = "<group>"; };
+		189AA716242A19BE0010DB6C /* TblvwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblvwCell.swift; sourceTree = "<group>"; };
+		189AA71A242A20D60010DB6C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		189AA71C242A213C0010DB6C /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		189AA71E242A21480010DB6C /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		189AA71F242A21480010DB6C /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				189AA6FE2429BCD50010DB6C /* AppDelegate.swift */,
 				189AA7002429BCD50010DB6C /* SceneDelegate.swift */,
+				189AA7122429CB0A0010DB6C /* ParticlePeripheral.swift */,
 				189AA7022429BCD50010DB6C /* ViewController.swift */,
 				189AA7042429BCD50010DB6C /* Main.storyboard */,
 				189AA7072429BCD70010DB6C /* Assets.xcassets */,
 				189AA7092429BCD70010DB6C /* LaunchScreen.storyboard */,
 				189AA70C2429BCD70010DB6C /* Info.plist */,
+				189AA7142429FC630010DB6C /* PopulateVC.swift */,
+				189AA716242A19BE0010DB6C /* TblvwCell.swift */,
+				189AA71A242A20D60010DB6C /* ChatViewController.swift */,
+				189AA71C242A213C0010DB6C /* ChatViewController.xib */,
+				189AA71F242A21480010DB6C /* ChatCell.swift */,
+				189AA71E242A21480010DB6C /* ChatCell.xib */,
 			);
 			path = BlueToothDataSend;
 			sourceTree = "<group>";
@@ -127,6 +148,8 @@
 			files = (
 				189AA70B2429BCD70010DB6C /* LaunchScreen.storyboard in Resources */,
 				189AA7082429BCD70010DB6C /* Assets.xcassets in Resources */,
+				189AA720242A21480010DB6C /* ChatCell.xib in Resources */,
+				189AA71D242A213C0010DB6C /* ChatViewController.xib in Resources */,
 				189AA7062429BCD50010DB6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				189AA7032429BCD50010DB6C /* ViewController.swift in Sources */,
+				189AA721242A21480010DB6C /* ChatCell.swift in Sources */,
+				189AA71B242A20D60010DB6C /* ChatViewController.swift in Sources */,
+				189AA717242A19BE0010DB6C /* TblvwCell.swift in Sources */,
+				189AA7152429FC630010DB6C /* PopulateVC.swift in Sources */,
 				189AA6FF2429BCD50010DB6C /* AppDelegate.swift in Sources */,
 				189AA7012429BCD50010DB6C /* SceneDelegate.swift in Sources */,
+				189AA7132429CB0A0010DB6C /* ParticlePeripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6S4X5XNGN;
 				INFOPLIST_FILE = BlueToothDataSend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6S4X5XNGN;
 				INFOPLIST_FILE = BlueToothDataSend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

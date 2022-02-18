@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  BlueToothDataSend
 //
-//  Created by Apple on 24/03/20.
 //  Copyright © 2020 Apple. All rights reserved.
 //
 
